@@ -1,3 +1,4 @@
+//Game's configurations
 var config ={
     type: Phaser.AUTO,
     width: 800,
@@ -143,6 +144,7 @@ function updateGame()
     {
         player2.setVelocityY(0);
     }
+    
     //resets the game and adds a score as soon as the ball touches the wall
     if(ball.x>790)
     {
